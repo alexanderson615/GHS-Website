@@ -1,0 +1,165 @@
+/*  General styling */
+
+body {
+
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f7f5;
+	color: #26332c;
+
+}
+
+
+/* Header */
+
+.header {
+
+	background-color: #173b2b;
+	padding: 20px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+
+/* Logo */
+
+.logo {
+
+	width: 90px;
+	height: 90px;
+	object-fit: contain;
+
+}
+
+
+/* Navigation */
+
+.navigation a {
+
+	color: white;
+	text-decoration: none;
+	margin-left: 25px;
+	font-weight: bold;
+
+}
+
+.navigation a:hover {
+
+	color: #9ee6b8;
+
+}
+
+
+/* Main hero section */
+
+.hero {
+
+	text-align: center;
+	padding: 100px 20px;
+	background-color: #dff2e5;
+
+}
+
+hero h1 {
+
+	font-size: 40px;
+	margin-bottom: 10px;
+	color: #173b2b;
+
+}
+
+.hero h2 {
+
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 25px;
+
+}
+
+.hero p {
+
+	max-width: 650px;
+	margin: 0 auto 30px;
+	font-size: 18px;
+	line-height: 1.6;
+
+}
+
+
+/* Button */
+
+.button {
+
+	display: inline-block;
+	background-color: #2f7d4a;
+	color: white;
+	padding: 14px 28px;
+	border-radius: 6px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.button:hover {
+
+    background-color: #245f38;
+
+}
+
+
+/* About and services sections */
+
+.about,
+.services {
+
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+
+.about h2,
+.services h2 {
+
+    color: #173b2b;
+    font-size: 30px;
+
+}
+
+.about p {
+
+    font-size: 17px;
+    line-height: 1.7;
+
+}
+
+
+/* Services list */
+
+.services ul {
+
+    padding-left: 25px;
+
+}
+
+.services li {
+
+    margin-bottom: 12px;
+    font-size: 17px;
+
+}
+
+
+/* Footer */
+
+.footer {
+
+    background-color: #173b2b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+
+}
